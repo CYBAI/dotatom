@@ -1,0 +1,20 @@
+'metrics':
+  'userId': '8ea589d4850b76a49df6ae334f47b846dd5ae260'
+'exception-reporting':
+  'userId': 'a465723d-61f3-a1ed-311c-8cc23133f092'
+'welcome':
+  'showOnStartup': false
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'disabledPackages': [
+    'autocomplete'
+  ]
+'editor':
+  'showIndentGuide': true
+  'showInvisibles': true
+  'fontSize': 18
+  'fontFamily': 'Consolas'
+  'invisibles': {}

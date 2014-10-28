@@ -1,0 +1,9 @@
+apm install docblockr
+apm install file-icons
+apm install gulp-helper
+apm install linter
+apm install linter-jshint
+apm install linter-csslint
+apm install converttoutf8plus
+apm install minimap
+apm install monokai
