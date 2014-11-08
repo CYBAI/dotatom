@@ -9,3 +9,6 @@ apm install minimap
 apm install monokai
 apm install seti-ui
 apm install seti-syntax
+apm install autocomplete-plus
+apm install autocomplete-paths
+apm install autocomplete-snippets
