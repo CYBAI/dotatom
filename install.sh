@@ -7,3 +7,5 @@ apm install linter-csslint
 apm install converttoutf8plus
 apm install minimap
 apm install monokai
+apm install seti-ui
+apm install seti-syntax
