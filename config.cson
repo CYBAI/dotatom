@@ -1,20 +1,46 @@
-'metrics':
-  'userId': '8ea589d4850b76a49df6ae334f47b846dd5ae260'
-'exception-reporting':
-  'userId': 'a465723d-61f3-a1ed-311c-8cc23133f092'
-'welcome':
-  'showOnStartup': false
-'core':
-  'themes': [
-    'atom-dark-ui'
-    'monokai'
-  ]
-  'disabledPackages': [
-    'autocomplete'
-  ]
-'editor':
-  'showIndentGuide': true
-  'showInvisibles': true
-  'fontSize': 18
-  'fontFamily': 'Consolas'
-  'invisibles': {}
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "fast-eslint"
+      "file-icons"
+      "tree-view"
+    ]
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 17
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "4a4ccc89-6d4e-83c9-b470-4c618952823f"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+  "minimap-git-diff": {}
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  "seti-ui": {}
+  "toggle-quotes": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

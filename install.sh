@@ -1,14 +1,6 @@
-apm install docblockr
-apm install file-icons
-apm install gulp-helper
-apm install linter
-apm install linter-jshint
-apm install linter-csslint
-apm install converttoutf8plus
-apm install minimap
-apm install monokai
-apm install seti-ui
-apm install seti-syntax
-apm install autocomplete-plus
-apm install autocomplete-paths
-apm install autocomplete-snippets
+PACKAGES="file-icons linter-eslint nuclide autocomplete-paths language-babel minimap set-syntax docblockr language-docker minimap-git-diff seti-ui fast-eslint linter monokai-seti vim-mode-plus"
+
+for PACKAGE in $PACKAGES
+do
+  apm install $PACKAGE
+done
