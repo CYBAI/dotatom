@@ -4,6 +4,7 @@
       "source.ini": [
         ".buckconfig"
         ".flowconfig"
+        ".hgrc"
       ]
       "source.json": [
         ".arcconfig"
@@ -14,33 +15,40 @@
       ]
     disabledPackages: [
       "fast-eslint"
-      "file-icons"
-      "tree-view"
+      "nuclide"
     ]
+    excludeVcsIgnoredPaths: false
+    telemetryConsent: "limited"
     themes: [
       "seti-ui"
       "one-dark-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
-    fontSize: 17
+    fontSize: 16
     showIndentGuide: true
+    showInvisibles: true
     softWrap: true
   "exception-reporting":
     userId: "4a4ccc89-6d4e-83c9-b470-4c618952823f"
-  "file-watcher":
-    promptWhenFileHasChangedOnDisk: false
+  "linter-eslint":
+    lintHtmlFiles: true
+  "markdown-preview": {}
   minimap:
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
   "minimap-git-diff": {}
   nuclide:
+    "nuclide-file-tree":
+      hideIgnoredNames: false
     "nuclide-home":
       showHome: false
-  "seti-ui": {}
+    "nuclide-working-sets": {}
+  "seti-ui":
+    fileIcons: false
   "toggle-quotes": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
+  whitespace: {}
